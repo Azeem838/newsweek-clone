@@ -19,30 +19,55 @@
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
 
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
+      defer
+    ></script>
+
     <title>Hello, world!</title>
   </head>
   <body>
-    <div class="bg-danger container pt-3 pb-3">
-      <header class="d-flex justify-content-between">
-        <div class="d-flex flex-column">
-          <span class="text-light">22<sup>o</sup> Johannesburg, ZA ></span>
-          <span class="text-light">Tue, Apr 14, 2020</span>
+    <!-- Header -->
+    <div class="container bg-danger pt-3 pb-3">
+      <div class="row">
+        <div class="col-lg-12">
+          <header class="d-flex justify-content-between">
+            <div
+              class="d-flex flex-lg-column flex-md-row align-content-md-center"
+            >
+              <h3
+                class="font-weight-bolder text-light d-lg-none d-md-block pr-md-2"
+              >
+                Newsweek
+              </h3>
+              <span class="text-light pr-1 align-self-md-center"
+                ><i class="fas fa-cloud-sun pr-1"></i>22<sup>o</sup>
+                Johannesburg, ZA ></span
+              >
+              <span class="text-light pr-1 d-none d-lg-inline"
+                >Tue, Apr 14, 2020</span
+              >
+            </div>
+            <h1 class="d-none d-lg-inline text-light font-weight-bolder">
+              Newsweek
+            </h1>
+            <div class="d-flex align-content-end text-decoration-none">
+              <button type="button" class="btn btn-link text-light">
+                SIGN IN
+              </button>
+              <button
+                type="button"
+                class="btn btn-light btn-sm text-danger rounded-0 pt-0 pb-0"
+              >
+                SUBSCRIBE >
+              </button>
+            </div>
+          </header>
         </div>
-        <h1 class="text-light font-weight-bolder">Newsweek</h1>
-        <div class="d-flex align-content-end text-decoration-none">
-          <button type="button" class="btn btn-link text-light">
-            SIGN IN
-          </button>
-          <button
-            type="button"
-            class="btn btn-light btn-sm text-danger rounded-0 pt-0 pb-0"
-          >
-            SUBSCRIBE >
-          </button>
-        </div>
-      </header>
+      </div>
     </div>
 
+    <!-- NavBar -->
     <div class="container pl-0">
       <nav class="navbar navbar-expand-lg navbar-light bg-white pl-0">
         <button
@@ -60,9 +85,7 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav mr-auto mt-2 mt-md-0">
             <li class="nav-item">
-              <a
-                class="nav-link font-weight-bold text-dark font-weight-bold text-dark"
-                href="#!"
+              <a class="nav-link font-weight-bold text-dark" href="#!"
                 >U.S<span class="sr-only">(current)</span></a
               >
             </li>
@@ -113,15 +136,12 @@
             </li>
             <form class="form-inline my-2 my-lg-0">
               <input
-                class="form-control mr-sm-2"
+                class="form-control mr-sm-2 border-0"
                 type="text"
                 placeholder="Search"
                 aria-label="Search"
               />
-              <button
-                class="btn btn-outline-success my-2 my-sm-0"
-                type="submit"
-              >
+              <button class="btn my-2 my-sm-0" type="submit">
                 <i class="fas fa-search"></i>
               </button>
             </form>
@@ -129,6 +149,8 @@
         </div>
       </nav>
     </div>
+
+    <hr />
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
