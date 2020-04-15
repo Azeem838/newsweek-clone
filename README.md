@@ -23,6 +23,7 @@ This project includes the following:
 👤 **Azeem Ahmed**
 
 - Github: @Azeem838
+- Twitter: @Azeem838
 
 ## 🤝 Contributing
 
