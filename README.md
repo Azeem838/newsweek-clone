@@ -18,7 +18,7 @@ This project includes the following:
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://rawcdn.githack.com/Azeem838/newsweek-clone/777de5d23677d2fa19a250447c1b7a2f04684e38/index.html)
 
 👤 **Azeem Ahmed**
 
