@@ -2,3 +2,8 @@ body {
   width: 75%;
   margin: 0 auto;
 }
+
+.col-lg-6 {
+  overflow-y: scroll;
+  height: 136em;
+}
