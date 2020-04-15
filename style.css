@@ -1,9 +1,40 @@
 body {
-  width: 75%;
+  width: 85%;
   margin: 0 auto;
 }
 
-.col-lg-6 {
-  overflow-y: scroll;
-  height: 136em;
+@media screen and (min-width: 768px) {
+  .col-lg-6 {
+    overflow-y: scroll;
+    height: 136em;
+  }
+
+  .sub-img-top {
+    position: relative;
+    top: 0.8em;
+    left: -5em;
+  }
+
+  .newsletter-img {
+    width: 190px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sub-img-top {
+    position: absolute;
+    object-fit: contain;
+    bottom: 15.2em;
+    left: 18em;
+  }
+
+  .sub-img-bottom {
+    object-fit: contain;
+  }
+
+  .newsletter-img {
+    object-fit: cover;
+    width: 100%;
+    height: 160px;
+  }
 }
