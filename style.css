@@ -85,17 +85,36 @@ body {
   color: var(--red) !important;
 }
 
-@media screen and (min-width: 768px) {
-  .col-lg-6 {
-    overflow-y: scroll;
-    height: 136em;
-  }
+.debate-top {
+  border-top: 4px solid var(--red);
+  padding-top: 0.1em;
+}
 
+.debate-bottom {
+  border-top: 4px solid #1c87fb;
+  padding-top: 0.1em;
+}
+
+.vs-circle {
+  color: white;
+  background: black;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 1em;
+  width: 3.6em;
+  margin: 2em auto;
+}
+
+@media screen and (min-width: 768px) {
   .sub-img-top {
     position: relative;
     object-fit: cover;
     top: 0.8em;
     left: -5em;
+  }
+
+  .top-section {
+    margin-top: 10em;
   }
 
   .sub-img-bottom {
