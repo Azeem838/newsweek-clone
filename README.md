@@ -2,7 +2,7 @@
 
 > This is a clone of the newsweek homepage that is written using Bootstrap
 
-![screenshot](./images/newsweek-clone-screenshot.png)
+![screenshot](./images/newsweek-clone-screenshot-new.png)
 
 This project includes the following:
 
