@@ -21,6 +21,30 @@ body {
   color: var(--red) !important;
 }
 
+.redblock {
+  height: 25px;
+  margin: 0;
+  margin-top: -10px;
+}
+
+.white-links {
+  background-color: white;
+}
+
+.sec-2 {
+  width: 10px;
+  background: linear-gradient(to top right, white, white 49%, red 50%, red);
+}
+
+.sec-3 {
+  width: 80px;
+  background-color: var(--red);
+}
+
+.vertical-bars {
+  border-right: 2px solid #d9d9d9;
+}
+
 .img-text-container {
   position: relative;
 }
@@ -81,10 +105,6 @@ body {
   padding-top: 1em;
 }
 
-.nav-item a {
-  color: black !important;
-}
-
 .top-section {
   margin-top: 4em;
   padding-top: 0.1em;
@@ -119,6 +139,10 @@ body {
   font-weight: bolder;
 }
 
+.nav-item a {
+  color: black !important;
+}
+
 @media screen and (min-width: 768px) {
   .sub-img-top {
     position: relative;
@@ -142,6 +166,20 @@ body {
   }
 }
 
+@media screen and (min-width: 992px) {
+  .nav-item a {
+    color: black !important;
+  }
+
+  .nav-item a:hover {
+    color: var(--red) !important;
+  }
+
+  .weather-search-item {
+    padding-right: 7.5em;
+  }
+}
+
 @media screen and (max-width: 992px) {
   body {
     width: 98%;
@@ -150,7 +188,7 @@ body {
   .my-navbar-style {
     opacity: 1;
     width: max-content;
-    float: inline-end;
+    float: right;
     height: 100vh;
     align-items: flex-start;
   }
@@ -159,7 +197,8 @@ body {
     font-size: 1.3rem;
   }
 
-  ul li:hover {
+  ul li a:hover {
+    color: white !important;
     background: #000;
   }
 
