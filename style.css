@@ -3,9 +3,14 @@
 }
 
 body {
-  width: 85%;
+  max-width: 1310px;
   margin: 0 auto;
   font-family: "Roboto Condensed", sans-serif;
+}
+
+.fixed-top {
+  max-width: 1310px;
+  margin: 0 auto;
 }
 
 .header {
