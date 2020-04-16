@@ -38,23 +38,31 @@
   <body>
     <div class="fixed-top mb-5">
       <!-- Header -->
-      <div class="header container-fluid pt-3 pb-3">
+      <div class="header container-fluid pt-0 pb-0 pt-lg-3 pb-lg-3">
         <div class="row">
-          <div class="col-lg-12">
+          <div class="col-lg-12 pr-0">
             <header class="d-flex justify-content-between">
               <div
-                class="d-flex flex-lg-column flex-md-row align-content-md-center"
+                class="d-flex flex-lg-column flex-row align-content-md-center pl-lg-2 pt-lg-1"
               >
                 <h3
-                  class="font-weight-bolder text-light d-lg-none d-md-block pr-md-2"
+                  class="font-weight-bolder text-light d-lg-none d-md-inline-block align-self-center pr-2"
                 >
                   Newsweek
                 </h3>
-                <span class="text-light pr-1 align-self-md-center"
-                  ><i class="fas fa-cloud-sun pr-1"></i>22<sup>o</sup>
-                  Johannesburg, ZA ></span
-                >
-                <span class="text-light pr-1 d-none d-lg-inline"
+                <div class="align-self-center">
+                  <span
+                    class="text-light pr-1 font-weight-bold d-none d-sm-inline"
+                    ><i
+                      class="weather-icon fas fa-cloud-sun pl-1 pl-lg-0 pr-1"
+                    ></i
+                    >22<sup>o</sup></span
+                  >
+                  <span class="joburg-text text-light font-weight-bold pr-1"
+                    >Johannesburg, ZA</span
+                  >
+                </div>
+                <span class="text-light pr-1 d-none d-lg-inline pt-lg-2"
                   >Tue, Apr 14, 2020</span
                 >
               </div>
@@ -63,21 +71,37 @@
               >
                 Newsweek
               </h1>
-              <div
-                class="d-flex align-content-end text-decoration-none align-items-sm-end"
-              >
+              <div class="d-flex align-content-center text-decoration-none">
                 <button
                   type="button"
-                  class="btn btn-link text-light pb-0 font-weight-bolder"
+                  class="btn btn-link text-light pb-0 pt-0 font-weight-bolder align-self-center align-self-lg-end"
                 >
                   SIGN IN
                 </button>
                 <button
                   type="button"
-                  class="btn btn-light btn-lg text-danger rounded-0 pt-0 pb-0 font-weight-bold"
+                  class="btn btn-light text-danger rounded-0 pt-0 pb-0 font-weight-bold align-self-center align-self-lg-end"
                 >
                   SUBSCRIBE >
                 </button>
+                <div class="navbar navbar-expand-lg navbar-dark pr-2">
+                  <button
+                    class="navbar-toggler navbar-toggler-right ml-auto"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarTogglerDemo02"
+                    aria-controls="navbarTogglerDemo02"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="navbar-toggler-icon"
+                      ><i
+                        class="fas fa-bars"
+                        style="color: #fb9a94; font-size: 30px;"
+                      ></i
+                    ></span>
+                  </button>
+                </div>
               </div>
             </header>
           </div>
@@ -85,100 +109,97 @@
       </div>
 
       <!-- NavBar -->
-      <div class="container-fluid pl-0">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white pl-0">
-          <button
-            class="navbar-toggler navbar-toggler-right ml-auto"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarTogglerDemo02"
-            aria-controls="navbarTogglerDemo02"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
+      <div class="my-navbar-style-container container-fluid pl-0 pr-0">
+        <nav
+          class="my-navbar-style navbar navbar-expand-lg navbar-dark bg-white pl-0"
+        >
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav mr-auto mt-3">
+            <ul
+              class="navbar-nav mr-auto mt-lg-3 mt-1 ml-3 mb-1 ml-lg-0 mb-lg-0 w-100 justify-content-lg-around"
+            >
               <li class="nav-item">
                 <a
-                  class="nav-link font-weight-bold text-dark border-right pt-0 pr-2 pb-0"
+                  class="nav-link font-weight-bold text-dark border-right pt-0 pr-4 pb-0"
                   href="#!"
-                  >U.S<span class="sr-only">(current)</span></a
+                  >U.S</a
                 >
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link font-weight-bold text-dark border-right pt-0 pr-4 pl-4 pb-0"
+                  class="nav-link font-weight-bold text-dark border-right pt-0 pr-4 pb-0"
                   href="#!"
                   >Business</a
                 >
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link font-weight-bold text-dark border-right pt-0 pr-4 pl-4 pb-0"
+                  class="nav-link font-weight-bold text-dark border-right pt-0 pr-4 pb-0"
                   href="#!"
                   >Tech & Science</a
                 >
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link font-weight-bold text-dark border-right pt-0 pr-4 pl-4 pb-0"
+                  class="nav-link font-weight-bold text-dark border-right pt-0 pr-4 pb-0"
                   href="#!"
                   >Culture</a
                 >
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link font-weight-bold text-dark border-right pt-0 pr-4 pl-4 pb-0"
+                  class="nav-link font-weight-bold text-dark border-right pt-0 pr-4 pb-0"
                   href="#!"
                   >Newsgeek</a
                 >
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link font-weight-bold text-dark border-right pt-0 pr-4 pl-4 pb-0"
+                  class="nav-link font-weight-bold text-dark border-right pt-0 pr-4 pb-0"
                   href="#!"
                   >Sports</a
                 >
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link font-weight-bold text-dark border-right pt-0 pr-4 pl-4 pb-0"
+                  class="nav-link font-weight-bold text-dark border-right pt-0 pr-4 pb-0"
                   href="#!"
                   >Health</a
                 >
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link font-weight-bold text-dark border-right pt-0 pr-4 pl-4 pb-0"
+                  class="nav-link font-weight-bold text-dark border-right pt-0 pr-4 pb-0"
                   href="#!"
                   >The Debate</a
                 >
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link font-weight-bold text-dark border-right pt-0 pr-4 pl-4 pb-0"
+                  class="nav-link font-weight-bold text-dark border-right pt-0 pr-4 pb-0"
                   href="#!"
                   >Vantage</a
                 >
               </li>
-              <li class="nav-item d-flex align-items-center">
+              <li
+                class="nav-item d-flex align-items-lg-center flex-lg-row flex-column"
+              >
                 <a
-                  class="nav-link font-weight-bold text-dark pt-0 pr-4 pl-4 pb-0"
+                  class="nav-link font-weight-bold text-dark pt-0 pr-4 mr-3 pb-0"
                   href="#!"
                   >Weather</a
                 >
-                <form class="form-inline my-2 my-lg-0 pt-0 pb-0">
+                <form class="form-inline my-2 my-lg-0 pt-0 pb-0 order-lg-1">
                   <input
-                    class="form-control mr-sm-2 border-0 pt-0 pb-0"
+                    class="form-control mr-sm-2 mr-0 border-0 pt-0 pb-0"
                     type="text"
-                    style="height: 24px;"
+                    style="height: 24px; width: 3em; padding: 0;"
                     placeholder="Search"
                     aria-label="Search"
                   />
-                  <button class="btn my-2 my-sm-0 pt-0 pb-0" type="submit">
+                  <button
+                    class="btn my-2 my-sm-0 pt-0 pb-0 pl-0 pr-0"
+                    type="submit"
+                  >
                     <i class="fas fa-search"></i>
                   </button>
                 </form>
@@ -865,19 +886,27 @@
             </div>
 
             <div class="below-debate-info">
-              <hr class="mb-0" />
-              <hr class="mb-0 mt-1" />
-              <p class="position-relative pt-2">
-                <span class="text-black-50">By</span>
-                <strong class="text-black">Mark Pocan</strong>
+              <div>
+                <hr class="mb-0" />
+                <hr class="mb-0 mt-1" />
                 <img
-                  class="position-absolute mr-3 m-s-img rounded-circle"
+                  class="mr-3 m-s-img rounded-circle"
                   data-src="holder.js/64x64?theme=sky"
                   alt="64x64"
-                  style="width: 64px; height: 64px; left: 16em; bottom: -1em;"
+                  style="
+                    width: 64px;
+                    height: 64px;
+                    float: right;
+                    position: relative;
+                    top: -1em;
+                  "
                   src="./images/the-debate-person-1.webp"
                   data-holder-rendered="true"
                 />
+              </div>
+              <p class="pt-2">
+                <span class="text-black-50">By</span>
+                <strong class="text-black">Mark Pocan</strong>
               </p>
             </div>
             <div class="vs-circle text-center">
@@ -902,19 +931,27 @@
               </div>
             </div>
             <div class="below-debate-info">
-              <hr class="mb-0" />
-              <hr class="mb-0 mt-1" />
-              <p class="pt-2 position-relative">
-                <span class="text-black-50">By</span>
-                <strong class="text-black">TOM ROGERS</strong>
+              <div>
+                <hr class="mb-0" />
+                <hr class="mb-0 mt-1" />
                 <img
-                  class="position-absolute mr-3 m-s-img rounded-circle"
+                  class="mr-3 m-s-img rounded-circle"
                   data-src="holder.js/64x64?theme=sky"
                   alt="64x64"
-                  style="width: 64px; height: 64px; left: 16em; bottom: -1em;"
+                  style="
+                    width: 64px;
+                    height: 64px;
+                    float: right;
+                    position: relative;
+                    top: -1em;
+                  "
                   src="./images/the-debate-person-2.webp"
                   data-holder-rendered="true"
                 />
+              </div>
+              <p class="pt-2">
+                <span class="text-black-50">By</span>
+                <strong class="text-black">TOM ROGERS</strong>
               </p>
             </div>
             <h6
@@ -2053,9 +2090,7 @@
           <h6 class="w-100 mt-5 text-danger">
             SUBSCRIBE
           </h6>
-          <div
-            class="d-flex flex-sm-column flex-md-row pt-5 pl-4 pb-4 bg-light"
-          >
+          <div class="d-flex flex-column flex-md-row pt-5 pl-4 pb-4 bg-light">
             <img
               class="sub-img-bottom"
               src="./images/subscribe-bottom.jpg"
@@ -2067,9 +2102,9 @@
               class="sub-img-top"
             />
             <div
-              class="subscribe-info d-flex flex-sm-column align-items-sm-center justify-content-sm-center justify-content-md-center align-items-md-start flex-md-column mt-3"
+              class="subscribe-info d-flex flex-column align-items-center justify-content-center align-items-md-start mt-3"
             >
-              <h5 class="font-weight-bold text-sm-center text-md-left">
+              <h5 class="font-weight-bold text-center text-md-left">
                 In-depth Stories You Don't See Elsewhere About Topics You Want
                 to Read!
               </h5>
@@ -2077,20 +2112,20 @@
               <span>Choose A Membership That's Perfect for You!</span>
               <a
                 href="#!"
-                class="btn btn-primary btn-lg bg-danger mt-5 p-2 border-0"
+                class="bottom-cta-btn btn btn-primary btn-lg mt-5 p-2 border-0"
                 role="button"
                 >SUBSCRIBE ></a
               >
             </div>
           </div>
         </div>
-        <div class="col-lg-4">
-          <h6 class="w-100 mt-5 text-danger">
+        <div class="col-lg-4 mb-3">
+          <h6 class="w-100 mt-5 pb-2 text-danger">
             NEWSLETTER
           </h6>
           <div
             style="height: 280px;"
-            class="d-flex justify-content-sm-center align-items-sm-center flex-sm-column flex-md-row align-items-sm-start justify-content-md-start pt-1"
+            class="d-flex justify-content-center align-items-center flex-column flex-md-row align-items-start justify-content-md-start pt-1"
           >
             <img
               src="./images/newsletter.png"
@@ -2098,18 +2133,18 @@
               class="newsletter-img"
             />
             <div
-              class="subscribe-info d-flex flex-sm-column align-items-sm-center justify-content-sm-center align-items-md-start justify-content-ms-start mt-3 ml-4"
+              class="subscribe-info d-flex flex-column align-items-center justify-content-center align-items-md-start justify-content-md-start mt-3 ml-4"
             >
               <h5 class="font-weight-bold mb-sm-0">
                 The Starting 5
               </h5>
-              <span class="mt-md-3 text-sm-center text-md-left mb-sm-2"
+              <span class="mt-md-3 text-center text-md-left mb-2"
                 >See why nearly a quarter of a million subscribers begin their
                 day with the Starting 5.</span
               >
               <a
                 href="#!"
-                class="btn btn-primary btn-sm bg-danger mt-md-5 p-md-2 border-0"
+                class="bottom-cta-btn btn btn-primary btn-lg mt-md-5 p-md-2 border-0"
                 role="button"
                 >SIGN UP ></a
               >
@@ -2122,13 +2157,13 @@
     <hr />
     <!-- Footer with links -->
     <div
-      class="top-footer d-flex flex-sm-column flex-md-row justify-content-between align-items-md-center"
+      class="top-footer d-flex flex-column flex-md-row justify-content-between align-items-md-center"
     >
       <div
-        class="top-left d-flex flex-sm-column flex-md-row align-items-md-center"
+        class="top-left d-flex flex-column flex-md-row align-items-md-center"
       >
         <h3 class="text-danger">Newsweek</h3>
-        <small class="pl-md-2 pb-sm-2">© 2020 Newsweek</small>
+        <small class="pl-md-2 pb-2">© 2020 Newsweek</small>
       </div>
       <div class="top-right d-flex">
         <h4 class="pr-4"><i class="fab fa-facebook-square"></i></h4>

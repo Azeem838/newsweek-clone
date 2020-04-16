@@ -17,6 +17,10 @@ body {
   font-size: 3rem;
 }
 
+.text-danger{
+  color: var(--red) !important;
+}
+
 .img-text-container {
   position: relative;
 }
@@ -80,13 +84,9 @@ body {
 .nav-item a {
   color: black !important;
 }
-
-.nav-item a:hover {
-  color: var(--red) !important;
+.top-section {
+  margin-top: 4em;
 }
-
-.debate-top {
-  border-top: 4px solid var(--red);
   padding-top: 0.1em;
 }
 
@@ -103,6 +103,20 @@ body {
   padding: 1em;
   width: 3.6em;
   margin: 2em auto;
+}
+
+.weather-icon {
+  font-size: 1.3rem;
+}
+
+.navbar-dark .navbar-toggler {
+  border: none;
+}
+
+.bottom-cta-btn{
+  border-radius: 0;
+  background: var(--red);
+  font-weight: bolder;
 }
 
 @media screen and (min-width: 768px) {
@@ -128,6 +142,32 @@ body {
   }
 }
 
+@media screen and (max-width: 992px) {
+  body{
+    width: 98%;
+  }
+
+  .my-navbar-style {
+    opacity: 1;
+    width: max-content;
+    float: inline-end;
+    height: 100vh;
+    align-items: flex-start;
+  }
+
+  ul li a {
+    font-size: 1.3rem;
+  }
+
+  ul li:hover {
+    background: #000;
+  }
+
+  .top-section {
+    margin-top: 4em;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .sub-img-top {
     position: absolute;
@@ -144,5 +184,11 @@ body {
     object-fit: cover;
     width: 100%;
     height: 160px;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .joburg-text {
+    display: none;
   }
 }
