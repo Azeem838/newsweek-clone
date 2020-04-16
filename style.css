@@ -17,7 +17,7 @@ body {
   font-size: 3rem;
 }
 
-.text-danger{
+.text-danger {
   color: var(--red) !important;
 }
 
@@ -84,9 +84,9 @@ body {
 .nav-item a {
   color: black !important;
 }
+
 .top-section {
   margin-top: 4em;
-}
   padding-top: 0.1em;
 }
 
@@ -113,7 +113,7 @@ body {
   border: none;
 }
 
-.bottom-cta-btn{
+.bottom-cta-btn {
   border-radius: 0;
   background: var(--red);
   font-weight: bolder;
@@ -143,7 +143,7 @@ body {
 }
 
 @media screen and (max-width: 992px) {
-  body{
+  body {
     width: 98%;
   }
 
