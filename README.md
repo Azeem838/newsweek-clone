@@ -1,6 +1,6 @@
 # Newsweek Clone
 
-> This is a clone of the newsweek homepage that is written using Bootstrap
+> This is a clone of the newsweek homepage that is written using Bootstrap. This showcases the Bootstrap abilities and forms part of the projects in the Microverse curriculum.
 
 ![screenshot](./images/newsweek-clone-screenshot-new.png)
 
