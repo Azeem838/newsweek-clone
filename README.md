@@ -22,8 +22,8 @@ This project includes the following:
 
 👤 **Azeem Ahmed**
 
-- Github: @Azeem838
-- Twitter: @Azeem838
+- Github: [@Azeem838](https://github.com/Azeem838)
+- LinkedIn: [Azeem Ahmed](https://www.linkedin.com/in/azeem-ahmed-a56a25101/)
 
 ## 🤝 Contributing
 
